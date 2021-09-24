@@ -1,2 +1,2 @@
 # portafolio-web
-Proyecto de mi portafolio web de Ing. Sistemas
+Proyecto de mi portafolio web de introduccion Ing. en Sistemas
