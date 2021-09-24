@@ -1,0 +1,20 @@
+li{
+     list-style-type: none; 
+}
+
+hr{
+     margin-top: 3%;
+
+     background-color:#282828;
+     border-style: solid;
+     border-radius: 15px;
+
+
+     height: 3px;
+     width: 85%;
+}
+
+.contacto{
+     text-align: center;
+     margin-bottom: 5%;
+}
