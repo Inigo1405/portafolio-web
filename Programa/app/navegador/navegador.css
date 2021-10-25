@@ -18,8 +18,10 @@ li{
 }
 
 .navbar-brand{
+     width: 700px;
      margin-left: 540px; 
      margin-right: 560px;
+     padding-left: 10%;
 }
 
 .btn{

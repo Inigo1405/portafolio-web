@@ -21,107 +21,65 @@
 <!-- navegador -->
 <div class="Navegador">
      <!-- Menu desplegable -->
+     
+     <!-- ¿Quién soy? -->
      <div>
-          <!-- ¿Quién soy? -->
           <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">¿Quién soy?</a>
-          
           
           <div class="collapse multi-collapse" id="multiCollapseExample1">
                <div class="card card-body">
-                    <ul class="foto"><img src="https://prepaibero.iberopuebla.mx/pluginfile.php/81853/user/icon/boost/f1?rev=1968046" title="Iñigo Quintana Delgadillo" alt=""></ul>
-                    <ul>
-                         <li><p>Nombre: Iñigo Quintana Delgadillo</p></li>
-                         <li><p>Fecha de nacimiento: 14/05/2003</p></li>
-                         <li><p>Edad: 18 años</p></li>
-                         <li><p>Ciudad: Puebla</p></li>
-                         <li><p>Universidad: IBERO Puebla</p></li>
-                         <li><p>Carrera: Ingeniería en sitemas computacionales</p></li>
-                    </ul>
+                    <div class="quienSoy"></div>
                </div>
           </div>
      </div>
      
+
+     <!-- Gustos -->
      <div>
-          <!-- Gustos -->
           <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Gustos</a>
           
           
           <div class="collapse multi-collapse" id="multiCollapseExample2">
                <div class="card card-body">
-                    <ul>
-                         <li>
-                              <h5 class="subtitulo">Deportes: </h5>
-                              <!-- sublista -->
-                              <ul>
-                                   <li>Futbol</li>
-                                   <li>Tiro con arco</li>
-                              </ul>
-                         </li>
-          
-                         <li>
-                              <h5 class="subtitulo">Videojuegos favoritos: </h5>
-                              <!-- sublista -->
-                              <ul>
-                                   <li><p>Rocket League</p></li>
-                                   <li><p>Doom eternal</p></li>
-                                   <li><p>Sea of thieves</p></li>
-                                   <li><p>Rainbow six siege</p></li>
-                                   <li><p>Minecraft</p></li>
-                              </ul>
-                         </li>
-          
-                         <li>
-                              <h5 class="subtitulo">Canciones favoritas: </h5>
-                              <!-- sublista -->
-                              <ul>
-                                   <li><p>Centuries -Fall Out Boy</p></li>
-                                   <li><p>27 -Fall Out Boy</p></li>
-                                   <li><p>Deja de llorar -Mago de Oz</p></li>
-                                   <li><p>Boulevard of Broken Dreams -Green day</p></li>  
-                                   <li><p>Wolf in Sheep's Clothing -Set It Off</p></li>
-                                      
-                              </ul>
-                         </li>
-                    </ul>
+                    <div class="gustos"></div> <!--Llama el html de gustos-->
                </div>
           </div>
      </div>
      
+
+     <!-- Habilidades -->
      <div>
-          <!-- Habilidades -->
           <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Habilidades</a>
           
           <div class="collapse multi-collapse" id="multiCollapseExample3">
                <div class="card card-body">
-                    <ul>
-                         <li><p>Videojuegos competitivos</p></li>
-                         <li><p>Creativo</p></li>
-                         <li><p>Fotografía</p></li>
-                         <li><p>Organizado</p></li>
-                         <li><p>Deportista</p></li>
-          
-                    </ul>
+                    <div class="habilidades"></div>
                </div>
           </div>
      </div>
      
-     
+
+     <!--Contacto-->
      <div class="Contacto">
-          
           <a id="btn" class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Contacto</a>
           
           <div class="collapse multi-collapse" id="multiCollapseExample4">
                <div class="card card-body">
-                    <ul>
-                         <li><p>Correo institucional: 187397@iberopuebla.mx</p></li>
-                         <li><p>Correo personal: quintanadinigo@gmail.com</p></li>
-                    </ul>
+                    <div class="contacto"></div>
                </div>
           </div>
      </div>
 </div>
 
 
-
+<script>
+     //Llama los archivos html
+     $(document).ready(function () {
+          $('.quienSoy').load('app/contenido/Desplegable/quienSoy/quienSoy.html');
+          $('.gustos').load('app/contenido/Desplegable/Gustos/gustos.html');
+          $('.habilidades').load('app/contenido/Desplegable/habilidades/habilidades.html');
+          $('.contacto').load('app/contenido/Desplegable/Contacto/contacto.html');
+     });
+</script>
 
 
