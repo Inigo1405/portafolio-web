@@ -1,20 +1,39 @@
+/* CSS Del navegador */
+
 li{
      list-style-type: none; 
 }
 
-hr{
-     margin-top: 3%;
-
-     background-color:#282828;
-     border-style: solid;
-     border-radius: 15px;
 
 
-     height: 3px;
-     width: 85%;
+.presentacion{ 
+     /*Centrar Div*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     margin-top: 2%;
+     margin-bottom: 25px; 
 }
 
-.contacto{
-     text-align: center;
-     margin-bottom: 5%;
+/* CSS Del contenido */
+.Language-python{
+     border-style: solid;
+     padding: 20px;
+     margin-bottom: 10%;
+     margin-left: 50px;
+     width: 30pc;
+}
+
+.code{
+     margin-left: 5%;
+     line-height : 2px;
+     font-size: small;
+     color: black;
+   }
+
+
+#anidados{
+     text-indent: 2em;
+     text-align: left;
 }
