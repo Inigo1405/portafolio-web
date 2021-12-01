@@ -37,3 +37,15 @@ li{
      text-indent: 2em;
      text-align: left;
 }
+
+/* Textos */
+h1{
+     text-align: center; 
+     margin-top: 5%;
+}
+
+h3{
+     color: #3A506B;
+     margin-left: 3%;
+     margin-top: 50px;
+}
