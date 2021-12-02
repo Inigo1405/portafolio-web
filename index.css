@@ -49,3 +49,24 @@ h3{
      margin-left: 3%;
      margin-top: 50px;
 }
+
+h4{
+     margin-top: 25px;
+     margin-left: 67%;
+}
+
+/* Fotos */
+.flutterFlow{
+     width: 700px;
+     display: grid;
+     margin-left: 500px;
+}
+
+.IA{
+     width: 1600px;
+     margin-left: 25px;
+     margin-bottom: 25px;
+     border: solid;
+     border-radius: 10px;
+
+}
